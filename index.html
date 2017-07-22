@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Filter Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <nav>
+          <ul class="list-inline text-center">
+           <li type="button" data-filter="all">All</li>
+            <li type="button" data-filter=".cat-1">Category-1</li>
+            <li type="button" data-filter=".cat-2">Category-2</li>
+            <li type="button" data-filter=".cat-3">Category-3</li>
+            <li type="button" data-filter=".cat-4">Category-4</li>
+            <li type="button" data-filter=".cat-5">Category-5</li>
+            <li type="button" data-filter=".cat-6">Category-6</li>
+            <li type="button" data-filter="none">Hide-all</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row mixitup">
+          <div class="col-sm-3 mix cat-1">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-2">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-3">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-4">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-5">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-6">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-1">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-2">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-3">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-4">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-5">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+          <div class="col-sm-3 mix cat-5">
+            <img class="img-responsive" src="http://lorempixel.com/400/200" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script>
+      var mixer = mixitup('.mixitup');
+    </script>
+  </body>
+</html>
